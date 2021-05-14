@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\CheboDick\\CheboDick\\CheboDick.csproj": {}
+    "G:\\CheboDickGit\\CheboDick\\CheboDick.csproj": {}
   },
   "projects": {
-    "G:\\CheboDick\\CheboDick\\CheboDick.csproj": {
+    "G:\\CheboDickGit\\CheboDick\\CheboDick.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\CheboDick\\CheboDick\\CheboDick.csproj",
+        "projectUniqueName": "G:\\CheboDickGit\\CheboDick\\CheboDick.csproj",
         "projectName": "CheboDick",
-        "projectPath": "G:\\CheboDick\\CheboDick\\CheboDick.csproj",
+        "projectPath": "G:\\CheboDickGit\\CheboDick\\CheboDick.csproj",
         "packagesPath": "C:\\Users\\Bogdan\\.nuget\\packages\\",
-        "outputPath": "G:\\CheboDick\\CheboDick\\obj\\",
+        "outputPath": "G:\\CheboDickGit\\CheboDick\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -44,6 +44,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
