@@ -11,7 +11,6 @@ namespace CheboDick.Data
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Dick> Dicks { get; set; }
-        //public DbSet<Shopcart> Shopcarts { get; set; }
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
         {
             Database.EnsureCreated();

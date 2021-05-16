@@ -1,2 +1,2 @@
 # chebodick
-Project for young masliatko
+Project for young masliatki
